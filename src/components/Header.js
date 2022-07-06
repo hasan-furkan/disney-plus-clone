@@ -26,10 +26,6 @@ export default function Header() {
                     <span>WATCHLIST</span>
                 </a>
                 <a>
-                    <img src={WathcListIcon} alt="" />
-                    <span>WATCHLIST</span>
-                </a>
-                <a>
                     <img src={OriginalsIcon} alt="" />
                     <span>ORIGINALS</span>
                 </a>
@@ -64,7 +60,6 @@ const NavMenu = styled.div`
     flex: 1;
     margin-left: 25px;
     align-items:center;
-    overflow-x: hidden;
 
     a{
         display: flex;
